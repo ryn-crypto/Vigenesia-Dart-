@@ -24,7 +24,7 @@ class _MainScreensState extends State<MainScreens> {
   TextEditingController titleController = TextEditingController();
   Future<dynamic> sendMotivasi(String isi) async {
     Map<String, dynamic> body = {"isi_motivasi": isi, "iduser": widget.idUser};
-// [Tambah IDUSER -> Widget.iduser]
+    // [Tambah IDUSER -> Widget.iduser]
     try {
       Response response = await dio.post(
           "$baseurl/vigenesia/api/dev/POSTmotivasi/",

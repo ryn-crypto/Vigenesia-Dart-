@@ -35,10 +35,11 @@ dependencies:
   cupertino_icons: ^1.0.2
   dio: ^3.0.10
   font_awesome_flutter: ^8.10.2
-  flutter_svg: 0.18.1
+  flutter_svg: ^0.18.1
   flutter_form_builder: ^5.0.0
   http: ^0.12.1
   another_flushbar: ^1.10.13
+  flutter_chips_input: ^1.9.5
 
 dev_dependencies:
   flutter_test:
